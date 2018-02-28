@@ -1,0 +1,33 @@
+body {
+  padding: 20px; }
+
+.button {
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  height: auto;
+  background-color: #3071A9;
+  color: white; }
+  .button:hover {
+    background-color: #285e8d; }
+
+.container {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  padding: 8px;
+  height: auto;
+  width: auto; }
+  .container .block {
+    opacity: 1;
+    transition: opacity 0.3s linear;
+    width: 50%;
+    margin: 5px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
